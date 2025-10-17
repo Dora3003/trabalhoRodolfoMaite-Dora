@@ -3,5 +3,83 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Rubik';
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+.App {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #ff4f91;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #b0b8c1;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff4f91;
+  margin: 12px 0;
+}
+
+.red-title {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.title {
+  color: #61dafb;
+}
+
+.App > div {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.App > div:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 79, 145, 0.2);
+}
+
+.App > div h2 {
+  color: #ff79c6;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.App > div ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.App > div li {
+  background-color: #1e242d;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+  color: #c9d1d9;
+  font-size: 0.95rem;
+  transition: background-color 0.3s;
+}
+
+.App > div li:hover {
+  background-color: #2a323d;
 }
